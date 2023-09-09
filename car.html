@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>rento</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.25.0/dist/index.umd.js"></script>
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+           <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                 <div class="full">
+                    <div class="center-desk">
+                       <div class="logo">
+                        <a href="index.html">Âdham</a>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                 <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExample04">
+                       <ul class="navbar-nav mr-auto">
+                          <li class="nav-item">
+                             <a class="nav-link" href="index.html"> Home  </a>
+                          </li>
+                          <li class="nav-item">
+                             <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                             <a class="nav-link" href="index.html #Contact">Contact us</a>
+                          </li>
+                       </ul>
+                       <div class="sign_btn"><a href="#">Sign in</a></div>
+                    </div>
+                 </nav>
+              </div>
+           </div>
+        </div>
+     </div>
+  </header>
+
+    <section class="services" id="services">
+
+        <div  class="car">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="titlepage">
+                    <h2><span class="All">All</span> The CARS </h2>
+                    <span>Explore a diverse range of rental cars that suit your needs perfectly. Start your journey now.</span>
+                 </div>
+              </div>
+           </div>  
+
+           <div class="container-car-s">
+            <div class="input-filter">
+                <input type="text" name="" id="filter" class="filter" placeholder="Search For Car" onkeyup="searchCar()">
+            </div>
+           </div>
+
+<div class="card-lists" id="card-lists">
+     <div class="services-container">
+         <div class="box">
+            <div class="card-body">
+             <div class="box-img">
+                 <img src="images/car15.avif" alt="">
+             </div>
+             <p class="Car-info">2016</p>
+             <p class="Car-Seats">4 Seats</p>
+             <p class="Car-Seats">2 Doors</p>
+             <h3 class="card-title">2016 BMW M4</h3>
+             <h2>$10,500 | $349 <span>/Day</span></h2>
+             <a href="#" class="btn" data-car-name="2016 BMW M4">Rent Now</a>
+            </div>
+         </div>
+         
+         <div class="box">
+            
+             <div class="box-img">
+                 <img src="images/car18.jpg" alt="">
+             </div>
+             <div class="card-body">
+             <p class="Car-info">2023</p>
+             <p class="Car-Seats">4 Seats</p>
+             <p class="Car-Seats">4 Doors</p>
+             <h3 class="card-title">2023 BMW M4</h3>
+             <h2>$12,000 | $399 <span>/Day</span></h2>
+             <a href="#" class="btn" data-car-name="2023 BMW M4" data-per-day-price="$399">Rent Now</a>
+            </div>
+         </div>
+        
+         <div class="box">
+            
+             <div class="box-img">
+                 <img src="images/car10.webp" alt="">
+             </div>
+             <div class="card-body">
+             <p class="Car-info">2023</p>
+             <p class="Car-Seats">2 Seats</p>
+             <p class="Car-Seats">2 Doors</p>
+             <h3 class="card-title">2023 Porsche 911</h3>
+             <h2>$12,000 | $399 <span>/Day</span></h2>
+             <a href="#" class="btn" data-car-name="2023 Porsche 911" data-per-day-price="$399">Rent Now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            
+             <div class="box-img">
+                 <img src="images/car9.png" alt="">
+             </div>
+             <div class="card-body">
+             <p class="Car-info">2017</p>
+             <p class="Car-Seats">4 Seats</p>
+             <p class="Car-Seats">4 Doors</p>
+             <h3 class="card-title">2017 Mercedes-Benz C-Class</h3>
+             <h2>$10,500 | $359 <span>/Day</span></h2>
+             <a href="#" class="btn" data-car-name="2017 Mercedes-Benz C-Class" data-per-day-price="$359">Rent Now</a>
+            </div>
+         </div>
+         
+
+
+         <div class="box">
+            
+             <div class="box-img">
+                 <img src="images/car12.jpeg" alt="">
+             </div>
+             <div class="card-body">
+             <p class="Car-info">2023</p>
+             <p class="Car-Seats">2 Seats</p>
+             <p class="Car-Seats">2 Doors</p>
+             <h3 class="card-title">2023 Porsche 911</h3>
+             <h2>$12,000 | $399 <span>/Day</span></h2>
+             <a href="#" class="btn" data-car-name="2023 Porsche 911" data-per-day-price="$399">Rent Now</a>
+            </div>
+         </div>
+
+         <div class="box">
+            
+            <div class="box-img">
+                <img src="images/car19.jpg" alt="">
+            </div>
+            <div class="card-body">
+            <p class="Car-info">2023</p>
+            <p class="Car-Seats">4 Seats</p>
+            <p class="Car-Seats">4 Doors</p>
+            <h3 class="card-title">2023 MERCEDES BENZ C CLASS</h3>
+            <h2>$12,000 | $399 <span>/Day</span></h2>
+            <a href="#" class="btn" data-car-name="2023 MERCEDES BENZ C CLASS" data-per-day-price="$399">Rent Now</a>
+           </div>
+        </div>
+
+        <div class="box">
+            
+         <div class="box-img">
+             <img src="images/car20.webp" alt="">
+         </div>
+         <div class="card-body">
+         <p class="Car-info">2023</p>
+         <p class="Car-Seats">2 Seats</p>
+         <p class="Car-Seats">2 Doors</p>
+         <h3 class="card-title">2023 Mercedes-Benz AMG GT</h3>
+         <h2>$12,000 | $399 <span>/Day</span></h2>
+         <a href="#" class="btn" data-car-name="2023 Mercedes-Benz AMG GT">Rent Now</a>
+        </div>
+     </div>
+
+     <div class="box">
+            
+      <div class="box-img">
+          <img src="images/car22.webp" alt="">
+      </div>
+      <div class="card-body">
+      <p class="Car-info">2022</p>
+      <p class="Car-Seats">4 Seats</p>
+      <p class="Car-Seats">4 Doors</p>
+      <h3 class="card-title">Mercedes-Benz AMG GT 53</h3>
+      <h2>$12,000 | $399 <span>/Day</span></h2>
+      <a href="#" class="btn" data-car-name="Mercedes-Benz AMG GT 53" data-per-day-price="$399">Rent Now</a>
+     </div>
+  </div>
+
+  <div class="box">
+            
+   <div class="box-img">
+       <img src="images/car23.webp" alt="">
+   </div>
+   <div class="card-body">
+   <p class="Car-info">2023</p>
+   <p class="Car-Seats">4 Seats</p>
+   <p class="Car-Seats">4 Doors</p>
+   <h3 class="card-title">2023 BMW XM SPORT SUV</h3>
+   <h2>$13,500 | $449 <span>/Day</span></h2>
+   <h2 class="price">$449</h2>
+   <a href="#" class="btn" data-car-name="2023 BMW XM SPORT SUV" data-per-day-price="$499">Rent Now</a>
+  </div>
+</div>
+
+
+<div class="box">
+            
+   <div class="box-img">
+       <img src="images/car26.webp" alt="">
+   </div>
+   <div class="card-body">
+   <p class="Car-info">2023</p>
+   <p class="Car-Seats">4 Seats</p>
+   <p class="Car-Seats">4 Doors</p>
+   <h3 class="card-title">Rolls-Royce Ghost 2023</h3>
+   <h2>$13,500 | $449 <span>/Day</span></h2>
+   <a href="#" class="btn" data-car-name="Rolls-Royce Ghost 2023" data-per-day-price="$499">Rent Now</a>
+  </div>
+</div>
+
+<div class="box">
+            
+   <div class="box-img">
+       <img src="images/car28.jpg" alt="">
+   </div>
+   <div class="card-body">
+   <p class="Car-info">2023</p>
+   <p class="Car-Seats">2 Seats</p>
+   <p class="Car-Seats">2 Doors</p>
+   <h3 class="card-title">2023 Chevrolet Corvette</h3>
+   <h2>$12,000 | $399 <span>/Day</span></h2>
+   <a href="#" class="btn" data-car-name="2023 Chevrolet Corvette" data-per-day-price="$399">Rent Now</a>
+  </div>
+</div>
+
+<div class="box">
+            
+   <div class="box-img">
+       <img src="images/car29.jpg" alt="">
+   </div>
+   <div class="card-body">
+   <p class="Car-info">2023</p>
+   <p class="Car-Seats">2 Seats</p>
+   <p class="Car-Seats">2 Doors</p>
+   <h3 class="card-title">2023 Chevrolet Corvette</h3>
+   <h2>$12,000 | $399 <span>/Day</span></h2>
+   <a href="#" class="btn" data-car-name="2023 Chevrolet Corvette" data-per-day-price="$499">Rent Now</a>
+  </div>
+</div>
+
+         <div class="box">
+            
+             <div class="box-img">
+                 <img src="images/car16.webp " alt="">
+             </div>
+             <div class="card-body">
+             <p class="Car-info">2023</p>
+             <p class="Car-Seats">4 Seats</p>
+             <p class="Car-Seats">4 Doors</p>
+             <h3 class="card-title">Mercedes G63 AMG 2023</h3>
+             <h2>$12,000 | $399 <span>/Day</span></h2>
+             <a href="#" class="btn" data-car-name="Mercedes G63 AMG 2023" data-per-day-price="$499">Rent Now</a>
+            </div>
+           </div>  
+        </div>
+     </div>
+</div>  
+
+
+<!-------------->
+
+
+
+<script>
+   document.addEventListener("DOMContentLoaded", function() {
+     const selectedCar = JSON.parse(localStorage.getItem("selectedCar"));
+     
+     const carListContainer = document.getElementById("carListContainer");
+     const cars = [
+       // Array of car data, similar to the cars in your existing code
+       // Each car object should have properties like carType, carYear, carSeats, etc.
+     ];
+   
+     const matchingCars = cars.filter(car => {
+       return (
+         car.carType === selectedCar.carType &&
+         car.carYear === selectedCar.carYear &&
+         car.carSeats === selectedCar.carSeats
+       );
+     });
+   
+     matchingCars.forEach(car => {
+       const carBox = document.createElement("div");
+       carBox.classList.add("box");
+   
+       carBox.innerHTML = `
+         <!-- Car information HTML (similar to your existing boxes) -->
+       `;
+   
+       carListContainer.appendChild(carBox);
+     });
+   });
+   </script>
+
+
+<br><br>
+
+
+
+
+    
+ </section>
+
+
+      <script src="js/app.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/app2.js"></script>
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+</html>
